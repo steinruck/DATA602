@@ -1,0 +1,96 @@
+
+Top 10 features Highest Feature
+OverallQual
+- Score = 0.6454631197278844
+- RMSE = 49018.43578812499
+
+Linear Regression Highest Pair
+OverallQual, 1stFlrSF
+- Score = 0.7173882583039417
+- RMSE = 43764.68831784155
+
+Linear regression all features
+- Score = 0.8127547098527901
+- RMSE = 35623.303450007406
+
+KNN5
+- Score = 0.6015421069563245
+- RMSE = 51966.07983368139
+
+KNN10
+- Score = 0.5949812006956909
+- RMSE = 52392.16317256475
+
+Linear Regression with pairs resulted in a pair with the highest score
+KNN5 had the lowest score and highest RMSE
+Linear Regression on all features returned highest score and lowest RMSE
+
+
+
+
+
+
+
+full results:
+
+Top10:
+
+[('OverallQual', [0.6454631197278844, 49018.43578812499]),
+ ('ExterQual_Coded', [0.4991753471267155, 58260.148655350655]),
+ ('GrLivArea', [0.444289666781406, 61369.55515927838]),
+ ('KitchenQual_Coded', [0.43970293723342646, 61622.30113827634]),
+ ('TotalBsmtSF', [0.42491266111423953, 62430.33167581401]),
+ ('1stFlrSF', [0.4166679048480356, 62876.2562386846]),
+ ('GarageCars', [0.41193116659665807, 63131.022100901646]),
+ ('GarageArea', [0.4073263621599067, 63377.71018105261]),
+ ('BsmtQual_Coded', [0.3409700148262619, 66831.5181312807]),
+ ('GarageFinish_Coded', [0.3162849544224505, 68071.65468394081])]
+
+ 
+
+pairs:
+- OverallQual and ExterQual_Coded - Score = 0.6680147343521529 - RMSE = 47433.82463056837
+- OverallQual and GrLivArea - Score = 0.6921986779040229 - RMSE = 45673.46700931651
+- OverallQual and KitchenQual_Coded - Score = 0.6730869536074611 - RMSE = 47070.072304423644
+- OverallQual and TotalBsmtSF - Score = 0.706791108152437 - RMSE = 44577.66409611639
+- OverallQual and 1stFlrSF - Score = 0.7173882583039417 - RMSE = 43764.68831784155
+- OverallQual and GarageCars - Score = 0.6723247870365775 - RMSE = 47124.910051666164
+- OverallQual and GarageArea - Score = 0.6813946935673894 - RMSE = 46468.13490082075
+- OverallQual and BsmtQual_Coded - Score = 0.6566660974647345 - RMSE = 48237.754631121876
+- OverallQual and GarageFinish_Coded - Score = 0.6519020465859777 - RMSE = 48571.27166300009
+- ExterQual_Coded and GrLivArea - Score = 0.6347813176873234 - RMSE = 49751.391458782244
+- ExterQual_Coded and KitchenQual_Coded - Score = 0.5614795448182024 - RMSE = 54515.96037613585
+- ExterQual_Coded and TotalBsmtSF - Score = 0.6230211980057889 - RMSE = 50546.047838829036
+- ExterQual_Coded and 1stFlrSF - Score = 0.6364054863411375 - RMSE = 49640.64317074207
+- ExterQual_Coded and GarageCars - Score = 0.5958751919482284 - RMSE = 52334.30905507451
+- ExterQual_Coded and GarageArea - Score = 0.5993679075736751 - RMSE = 52107.66431927455
+- ExterQual_Coded and BsmtQual_Coded - Score = 0.5450531167248085 - RMSE = 55527.623429146435
+- ExterQual_Coded and GarageFinish_Coded - Score = 0.5502972235709233 - RMSE = 55206.666404704505
+- GrLivArea and KitchenQual_Coded - Score = 0.6069024711847932 - RMSE = 51615.35229523513
+- GrLivArea and TotalBsmtSF - Score = 0.5711932027269212 - RMSE = 53908.78820366903
+- GrLivArea and 1stFlrSF - Score = 0.5248920905023892 - RMSE = 56744.6431682994
+- GrLivArea and GarageCars - Score = 0.5966866179721508 - RMSE = 52281.74267329595
+- GrLivArea and GarageArea - Score = 0.59607195218783 - RMSE = 52321.567242795834
+- GrLivArea and BsmtQual_Coded - Score = 0.5812685358678369 - RMSE = 53271.697641041275
+- GrLivArea and GarageFinish_Coded - Score = 0.5443956805719437 - RMSE = 55567.72996628545
+- KitchenQual_Coded and TotalBsmtSF - Score = 0.5990455792408331 - RMSE = 52128.62170135381
+- KitchenQual_Coded and 1stFlrSF - Score = 0.5968792254270976 - RMSE = 52269.257275613665
+- KitchenQual_Coded and GarageCars - Score = 0.567833521710212 - RMSE = 54119.56256292118
+- KitchenQual_Coded and GarageArea - Score = 0.5574453189291629 - RMSE = 54766.149610801396
+- KitchenQual_Coded and BsmtQual_Coded - Score = 0.5328594837350531 - RMSE = 56266.83764588096
+- KitchenQual_Coded and GarageFinish_Coded - Score = 0.5254571772774448 - RMSE = 56710.887481378384
+- TotalBsmtSF and 1stFlrSF - Score = 0.45421260952689846 - RMSE = 60819.169853519044
+- TotalBsmtSF and GarageCars - Score = 0.5573159943855633 - RMSE = 54774.15098357734
+- TotalBsmtSF and GarageArea - Score = 0.5381252811630992 - RMSE = 55948.807553497696
+- TotalBsmtSF and BsmtQual_Coded - Score = 0.5012165203950788 - RMSE = 58141.30419325251
+- TotalBsmtSF and GarageFinish_Coded - Score = 0.5474747523224235 - RMSE = 55379.6423221991
+- 1stFlrSF and GarageCars - Score = 0.5591145233874983 - RMSE = 54662.76999764083
+- 1stFlrSF and GarageArea - Score = 0.5422825807187135 - RMSE = 55696.44288967451
+- 1stFlrSF and BsmtQual_Coded - Score = 0.5732205904418873 - RMSE = 53781.19751858489
+- 1stFlrSF and GarageFinish_Coded - Score = 0.5400153833741017 - RMSE = 55834.21222059495
+- GarageCars and GarageArea - Score = 0.43290484443359156 - RMSE = 61995.00619703875
+- GarageCars and BsmtQual_Coded - Score = 0.5190330795524087 - RMSE = 57093.45736087427
+- GarageCars and GarageFinish_Coded - Score = 0.45935281097583014 - RMSE = 60532.096220070496
+- GarageArea and BsmtQual_Coded - Score = 0.5228645856492857 - RMSE = 56865.59206791338
+- GarageArea and GarageFinish_Coded - Score = 0.4757489497506129 - RMSE = 59607.15498160584
+- BsmtQual_Coded and GarageFinish_Coded - Score = 0.44048257366049814 - RMSE = 61579.413429138556
