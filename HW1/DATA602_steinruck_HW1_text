@@ -25,6 +25,7 @@ Linear Regression with pairs resulted in a pair with the highest score
 KNN5 had the lowest score and highest RMSE
 Linear Regression on all features returned highest score and lowest RMSE
 
+In this example, linear regression of all features is better for inference
 
 
 
